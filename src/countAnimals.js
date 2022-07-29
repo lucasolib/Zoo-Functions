@@ -1,7 +1,9 @@
 const data = require('../data/zoo_data');
 
 function countAnimals(animal) {
-  // seu código aqui
+
 }
+
+console.log(countAnimals({ specie: 'tigers', sex: 'female' }));
 
 module.exports = countAnimals;
